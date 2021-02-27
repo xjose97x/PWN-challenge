@@ -54,6 +54,9 @@ The solution provided is a decorator.
 The benefit of this solution is that it can be used to any existing function in any codebase
 and it will just work :)
 
+Just add `@timer` above any function declaration and it 
+will print the elapsed time everytime the function is executed
+
 Example usage:
 > test_function(1)
 Time elapsed: 1 second 0001 milliseconds
